@@ -34,6 +34,7 @@ describe("Given I am connected as an employee", () => {
       const html = NewBillUI()
       document.body.innerHTML = html
 
+      // type bill
       const bill = {
         email: "employee@test.tld",
         type: "Hôtel et logement",
